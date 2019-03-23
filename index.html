@@ -2,21 +2,12 @@
 <html>
     <head>
         <style>
-            button {text-align:center;
-            }
-            p {text-align:Center;
-            }
-            h1 {text-align:Center;
-            }
-            .fullCard {
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            margin: 10px 5px;
-            padding: 4px;
-            }
-            .cardContent {
-             padding: 10px;
-            }
+            .parent {display: flex:}
+            .button {justify-content; center;}
+            p {text-align:Center;}
+            h1 {text-align:Center;            }
+            .fullCard {border: 1px solid #ccc; border-radius: 5px; margin: 10px 5px; padding: 4px;}
+            .cardContent {padding: 10px;}
         </style>
        <meta charset="utf-8">
        <title>T E S T  1-2-3</title>
@@ -29,7 +20,9 @@
         <h1> WELCOME</h1>
         
         <p>Fool. How dare you enter this domain of HTML and whatever else I decide to tamper with. Now that you're here, I suppose you may observe.</p>
+            <div class="id="button_specs">
             <button onclick="document.getElementById('demo').innerHTML = Date()"> Entertain yourself with this illusion, mortal</button>
+                `   </div>
         <p id="demo"></p>  
               </div>
          </div>
